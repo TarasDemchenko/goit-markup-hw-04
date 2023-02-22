@@ -223,9 +223,15 @@ a {
     text-transform: uppercase;
 }
 
-.box-order,
-.footer-last {
-    background: var(--modal-overlay);
+.box-order {
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .box-order {
@@ -245,6 +251,15 @@ a {
 
 
 /* -----section skils------ */
+.contein {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: var(--light);
+}
+
 .future {
     display: flex;
 }
@@ -260,6 +275,7 @@ a {
     line-height: 1.2;
     color: var(--modal-overlay);
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 .future-text {
@@ -324,6 +340,41 @@ a {
 
 .future-education {
     margin-top: 8px;
+}
+
+/* /* ------Customers---------- */
+.clients-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-top: 72px;
+}
+
+.clients-choice>.list:not(:last-child) {
+    margin-right: 24px;
+}
+
+.clients-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--modal-overlay);
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-top: 130px;
+}
+
+.clients {
+    display: inline-flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    height: 88px;
+    width: 168px;
+
 }
 
 /* -------------footer----------- */
@@ -411,4 +462,5 @@ header {
 
 .footer-last {
     padding: 100px 0;
+    background: var(--modal-overlay);
 }
