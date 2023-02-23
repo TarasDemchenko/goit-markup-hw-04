@@ -418,9 +418,16 @@ a {
 }
 
 /* ------content footer */
-.content-footer {
-    justify-content: center;
-    align-items: center;
+.footer-contein {
+    display: flex;
+}
+
+.footer-contein-item {
+    margin-right: 120px;
+}
+
+.content-footer-name {
+    padding-bottom: 16px;
 }
 
 .content-footer-link:not(:last-child) {
@@ -507,6 +514,10 @@ header {
 
 .future-text {
     margin-top: 8px;
+}
+
+.future-item {
+    margin-top: 0;
 }
 
 .content-card {
