@@ -167,7 +167,6 @@ a {
 
 }
 
-
 .auth-nav .item:not(:last-child) {
     margin-right: 40px;
 }
@@ -268,7 +267,6 @@ a {
     margin-right: 24px;
 }
 
-
 .future-item {
     font-weight: 500;
     font-size: 20px;
@@ -285,7 +283,6 @@ a {
     letter-spacing: 0.02em;
     width: 264px;
 }
-
 
 /* -------section what are we doing-------- */
 
@@ -363,8 +360,6 @@ a {
     background-color: var(--primary-brand);
     border-radius: 50%;
 }
-
-
 
 /* /* ------Customers---------- */
 
