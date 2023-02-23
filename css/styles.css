@@ -340,9 +340,44 @@ a {
 
 .future-education {
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
+.content-find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-link:not(:last-child) {
+    margin-right: 24px;
+}
+
+.content-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    Width: 40px;
+    Height: 40px;
+    background-color: var(--primary-brand);
+    border-radius: 50%;
+}
+
+
+
 /* /* ------Customers---------- */
+
+.clients-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--modal-overlay);
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-top: 130px;
+}
+
 .clients-choice {
     display: flex;
     justify-content: center;
@@ -353,16 +388,6 @@ a {
 
 .clients-choice>.list:not(:last-child) {
     margin-right: 24px;
-}
-
-.clients-item {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color: var(--modal-overlay);
-    text-align: center;
-    letter-spacing: 0.02em;
-    padding-top: 130px;
 }
 
 .clients {
@@ -390,6 +415,36 @@ a {
 .footer-main {
     padding: 100px 0;
     background: var(--dark);
+}
+
+/* ------content footer */
+.content-footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-footer-link:not(:last-child) {
+    margin-right: 16px;
+}
+
+.content-footer-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    Width: 40px;
+    Height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.content-footer-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--white-color)
 }
 
 /* -------Portfolio_______ */
