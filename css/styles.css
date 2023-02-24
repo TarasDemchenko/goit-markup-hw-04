@@ -230,6 +230,9 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
 
 }
 
@@ -251,12 +254,18 @@ a {
 
 /* -----section skils------ */
 .contein {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 264px;
     height: 112px;
     background-color: var(--light);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.contein-list {
+    width: 64px;
+    height: 64px;
 }
 
 .future {
@@ -344,21 +353,27 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.content-link:not(:last-child) {
-    margin-right: 24px;
+    gap: 24px;
 }
 
 .content-link {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     Width: 40px;
     Height: 40px;
     background-color: var(--primary-brand);
     border-radius: 50%;
+}
+
+.content-link:hover,
+.content-link:focus {
+    background-color: var(--pressed-state);
+}
+
+.content-item {
+    width: 16px;
+    height: 16px;
 }
 
 /* /* ------Customers---------- */
@@ -386,8 +401,7 @@ a {
 }
 
 .clients {
-    display: inline-flex;
-    box-sizing: border-box;
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #8E8F99;
@@ -395,6 +409,16 @@ a {
     height: 88px;
     width: 168px;
 
+}
+
+.clients-list {
+    width: 104px;
+    height: 56px;
+    fill: #AFB1B8;
+}
+
+.clients-list:hover {
+    fill: var(--pressed-state);
 }
 
 /* -------------footer----------- */
@@ -412,25 +436,23 @@ a {
     background: var(--dark);
 }
 
-/* ------content footer */
+/* ------content footer------------ */
+
 .footer-contein {
     display: flex;
 }
 
-.footer-contein-item {
-    margin-right: 120px;
+.content-footer {
+    margin-left: 120px;
 }
 
-.content-footer-name {
-    padding-bottom: 16px;
-}
-
-.content-footer-link:not(:last-child) {
-    margin-right: 16px;
+.content-footer-item {
+    display: flex;
+    gap: 16px;
 }
 
 .content-footer-link {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     Width: 40px;
@@ -445,8 +467,18 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    padding-bottom: 16px;
     color: var(--white-color)
+}
+
+.content-footer-list {
+    width: 24px;
+    height: 24px;
+}
+
+.content-footer-link:hover,
+.content-footer-link:focus {
+    background: #31D0AA;
 }
 
 /* -------Portfolio_______ */
