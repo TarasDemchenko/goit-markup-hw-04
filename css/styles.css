@@ -417,9 +417,9 @@ a {
 
 }
 
-.clients-list:hover,
-.clients-list:focus {
-    fill: var(--pressed-state);
+.clients:hover,
+.clients:focus {
+    color: var(--pressed-state);
 }
 
 /* -------------footer----------- */
